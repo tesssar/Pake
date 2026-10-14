@@ -60,9 +60,9 @@ on:
         default: false
       multi_arch:
         description: "Universal binary (macOS only)"
-        required: false
+        required: true
         type: boolean
-        default: false
+        default: true
       targets:
         description: "Package formats (comma-separated: deb,appimage,rpm,zst)"
         required: false
