@@ -60,7 +60,7 @@ on:
         default: false
       multi_arch:
         description: "Universal binary (macOS only)"
-        required: false
+        required: true
         type: boolean
         default: false
       targets:
